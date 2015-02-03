@@ -26,8 +26,8 @@ function inception( callback, value ) {
 	callback(value);
 }
 
-function value() {
+function theInsideFunction() {
 	console.log("The Book Thief is a fantastic movie");
 }
 
-inception(value);
+inception( theInsideFunction );
